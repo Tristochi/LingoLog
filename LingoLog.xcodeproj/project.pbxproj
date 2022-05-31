@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF19DAB3283C62CF00003B61 /* CodeVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19DAB2283C62CF00003B61 /* CodeVerifier.swift */; };
+		CF19DAB5283CF88A00003B61 /* YTWatchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19DAB4283CF88A00003B61 /* YTWatchHistory.swift */; };
+		CF19DAB7283D68DC00003B61 /* YTVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19DAB6283D68DC00003B61 /* YTVideo.swift */; };
+		CF19DAB9283D6AA800003B61 /* VideoPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19DAB8283D6AA800003B61 /* VideoPlaylist.swift */; };
+		CF19DABB283D874100003B61 /* LanguageCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF19DABA283D874100003B61 /* LanguageCodes.swift */; };
+		CF863BE6283E8D1E00D26BBF /* LangTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF863BE5283E8D1E00D26BBF /* LangTableViewController.swift */; };
+		CF863BE8283E8D4B00D26BBF /* LangTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF863BE7283E8D4B00D26BBF /* LangTableViewCellController.swift */; };
+		CF955C992829933D00D052D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF955C982829933D00D052D9 /* AppDelegate.swift */; };
+		CF955C9B2829933D00D052D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF955C9A2829933D00D052D9 /* SceneDelegate.swift */; };
+		CF955C9D2829933D00D052D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF955C9C2829933D00D052D9 /* ViewController.swift */; };
+		CF955CA02829933D00D052D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF955C9E2829933D00D052D9 /* Main.storyboard */; };
+		CF955CA22829933F00D052D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF955CA12829933F00D052D9 /* Assets.xcassets */; };
+		CF955CA52829933F00D052D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF955CA32829933F00D052D9 /* LaunchScreen.storyboard */; };
+		CF955CB02829933F00D052D9 /* LingoLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF955CAF2829933F00D052D9 /* LingoLogTests.swift */; };
+		CF955CBA2829933F00D052D9 /* LingoLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF955CB92829933F00D052D9 /* LingoLogUITests.swift */; };
+		CF955CBC2829933F00D052D9 /* LingoLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF955CBB2829933F00D052D9 /* LingoLogUITestsLaunchTests.swift */; };
+		CF955CCD28299A1F00D052D9 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF955CCC28299A1F00D052D9 /* GlobalConstants.swift */; };
+		FE53ED744C34B8F960907842 /* Pods_LingoLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A8C4EC67ACE3C7728311A3 /* Pods_LingoLog.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF955CAC2829933F00D052D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF955C8D2829933D00D052D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF955C942829933D00D052D9;
+			remoteInfo = LingoLog;
+		};
+		CF955CB62829933F00D052D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF955C8D2829933D00D052D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF955C942829933D00D052D9;
+			remoteInfo = LingoLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D906B54A8985A8CE1C72FEB /* Pods-LingoLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LingoLog.debug.xcconfig"; path = "Target Support Files/Pods-LingoLog/Pods-LingoLog.debug.xcconfig"; sourceTree = "<group>"; };
+		1A5F68EDF370DDE94B5A0E00 /* Pods-LingoLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LingoLog.release.xcconfig"; path = "Target Support Files/Pods-LingoLog/Pods-LingoLog.release.xcconfig"; sourceTree = "<group>"; };
+		34A8C4EC67ACE3C7728311A3 /* Pods_LingoLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LingoLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF19DAB2283C62CF00003B61 /* CodeVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerifier.swift; sourceTree = "<group>"; };
+		CF19DAB4283CF88A00003B61 /* YTWatchHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTWatchHistory.swift; sourceTree = "<group>"; };
+		CF19DAB6283D68DC00003B61 /* YTVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTVideo.swift; sourceTree = "<group>"; };
+		CF19DAB8283D6AA800003B61 /* VideoPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaylist.swift; sourceTree = "<group>"; };
+		CF19DABA283D874100003B61 /* LanguageCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCodes.swift; sourceTree = "<group>"; };
+		CF863BE5283E8D1E00D26BBF /* LangTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangTableViewController.swift; sourceTree = "<group>"; };
+		CF863BE7283E8D4B00D26BBF /* LangTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangTableViewCellController.swift; sourceTree = "<group>"; };
+		CF955C952829933D00D052D9 /* LingoLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LingoLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF955C982829933D00D052D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF955C9A2829933D00D052D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF955C9C2829933D00D052D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF955C9F2829933D00D052D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF955CA12829933F00D052D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF955CA42829933F00D052D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF955CA62829933F00D052D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF955CAB2829933F00D052D9 /* LingoLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingoLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF955CAF2829933F00D052D9 /* LingoLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoLogTests.swift; sourceTree = "<group>"; };
+		CF955CB52829933F00D052D9 /* LingoLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LingoLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF955CB92829933F00D052D9 /* LingoLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoLogUITests.swift; sourceTree = "<group>"; };
+		CF955CBB2829933F00D052D9 /* LingoLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LingoLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF955CCC28299A1F00D052D9 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF955C922829933D00D052D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE53ED744C34B8F960907842 /* Pods_LingoLog.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF955CA82829933F00D052D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF955CB22829933F00D052D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038223C1D0D8018326367590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D906B54A8985A8CE1C72FEB /* Pods-LingoLog.debug.xcconfig */,
+				1A5F68EDF370DDE94B5A0E00 /* Pods-LingoLog.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5E58359410BF177CA246EAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A8C4EC67ACE3C7728311A3 /* Pods_LingoLog.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF863BE4283E8CB300D26BBF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF955C9C2829933D00D052D9 /* ViewController.swift */,
+				CF863BE5283E8D1E00D26BBF /* LangTableViewController.swift */,
+				CF863BE7283E8D4B00D26BBF /* LangTableViewCellController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CF955C8C2829933D00D052D9 = {
+			isa = PBXGroup;
+			children = (
+				CF955C972829933D00D052D9 /* LingoLog */,
+				CF955CAE2829933F00D052D9 /* LingoLogTests */,
+				CF955CB82829933F00D052D9 /* LingoLogUITests */,
+				CF955C962829933D00D052D9 /* Products */,
+				038223C1D0D8018326367590 /* Pods */,
+				B5E58359410BF177CA246EAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF955C962829933D00D052D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF955C952829933D00D052D9 /* LingoLog.app */,
+				CF955CAB2829933F00D052D9 /* LingoLogTests.xctest */,
+				CF955CB52829933F00D052D9 /* LingoLogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF955C972829933D00D052D9 /* LingoLog */ = {
+			isa = PBXGroup;
+			children = (
+				CF863BE4283E8CB300D26BBF /* ViewControllers */,
+				CF955CC82829938100D052D9 /* Models */,
+				CF955C982829933D00D052D9 /* AppDelegate.swift */,
+				CF955C9A2829933D00D052D9 /* SceneDelegate.swift */,
+				CF955C9E2829933D00D052D9 /* Main.storyboard */,
+				CF955CA12829933F00D052D9 /* Assets.xcassets */,
+				CF955CA32829933F00D052D9 /* LaunchScreen.storyboard */,
+				CF955CA62829933F00D052D9 /* Info.plist */,
+			);
+			path = LingoLog;
+			sourceTree = "<group>";
+		};
+		CF955CAE2829933F00D052D9 /* LingoLogTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF955CAF2829933F00D052D9 /* LingoLogTests.swift */,
+			);
+			path = LingoLogTests;
+			sourceTree = "<group>";
+		};
+		CF955CB82829933F00D052D9 /* LingoLogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF955CB92829933F00D052D9 /* LingoLogUITests.swift */,
+				CF955CBB2829933F00D052D9 /* LingoLogUITestsLaunchTests.swift */,
+			);
+			path = LingoLogUITests;
+			sourceTree = "<group>";
+		};
+		CF955CC82829938100D052D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF955CCC28299A1F00D052D9 /* GlobalConstants.swift */,
+				CF19DAB2283C62CF00003B61 /* CodeVerifier.swift */,
+				CF19DAB4283CF88A00003B61 /* YTWatchHistory.swift */,
+				CF19DAB6283D68DC00003B61 /* YTVideo.swift */,
+				CF19DAB8283D6AA800003B61 /* VideoPlaylist.swift */,
+				CF19DABA283D874100003B61 /* LanguageCodes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF955C942829933D00D052D9 /* LingoLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF955CBF2829933F00D052D9 /* Build configuration list for PBXNativeTarget "LingoLog" */;
+			buildPhases = (
+				D452A75E2C756AA01B58B471 /* [CP] Check Pods Manifest.lock */,
+				CF955C912829933D00D052D9 /* Sources */,
+				CF955C922829933D00D052D9 /* Frameworks */,
+				CF955C932829933D00D052D9 /* Resources */,
+				37EE21A17A2C30123EF2CEBB /* [CP] Embed Pods Frameworks */,
+				906D67DF02851F58A7A0194A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LingoLog;
+			productName = LingoLog;
+			productReference = CF955C952829933D00D052D9 /* LingoLog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF955CAA2829933F00D052D9 /* LingoLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF955CC22829933F00D052D9 /* Build configuration list for PBXNativeTarget "LingoLogTests" */;
+			buildPhases = (
+				CF955CA72829933F00D052D9 /* Sources */,
+				CF955CA82829933F00D052D9 /* Frameworks */,
+				CF955CA92829933F00D052D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF955CAD2829933F00D052D9 /* PBXTargetDependency */,
+			);
+			name = LingoLogTests;
+			productName = LingoLogTests;
+			productReference = CF955CAB2829933F00D052D9 /* LingoLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF955CB42829933F00D052D9 /* LingoLogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF955CC52829933F00D052D9 /* Build configuration list for PBXNativeTarget "LingoLogUITests" */;
+			buildPhases = (
+				CF955CB12829933F00D052D9 /* Sources */,
+				CF955CB22829933F00D052D9 /* Frameworks */,
+				CF955CB32829933F00D052D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF955CB72829933F00D052D9 /* PBXTargetDependency */,
+			);
+			name = LingoLogUITests;
+			productName = LingoLogUITests;
+			productReference = CF955CB52829933F00D052D9 /* LingoLogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF955C8D2829933D00D052D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CF955C942829933D00D052D9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CF955CAA2829933F00D052D9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CF955C942829933D00D052D9;
+					};
+					CF955CB42829933F00D052D9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CF955C942829933D00D052D9;
+					};
+				};
+			};
+			buildConfigurationList = CF955C902829933D00D052D9 /* Build configuration list for PBXProject "LingoLog" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF955C8C2829933D00D052D9;
+			productRefGroup = CF955C962829933D00D052D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF955C942829933D00D052D9 /* LingoLog */,
+				CF955CAA2829933F00D052D9 /* LingoLogTests */,
+				CF955CB42829933F00D052D9 /* LingoLogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF955C932829933D00D052D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF955CA52829933F00D052D9 /* LaunchScreen.storyboard in Resources */,
+				CF955CA22829933F00D052D9 /* Assets.xcassets in Resources */,
+				CF955CA02829933D00D052D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF955CA92829933F00D052D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF955CB32829933F00D052D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37EE21A17A2C30123EF2CEBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LingoLog/Pods-LingoLog-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LingoLog/Pods-LingoLog-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LingoLog/Pods-LingoLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		906D67DF02851F58A7A0194A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LingoLog/Pods-LingoLog-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LingoLog/Pods-LingoLog-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LingoLog/Pods-LingoLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D452A75E2C756AA01B58B471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LingoLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF955C912829933D00D052D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF19DAB3283C62CF00003B61 /* CodeVerifier.swift in Sources */,
+				CF955C9D2829933D00D052D9 /* ViewController.swift in Sources */,
+				CF955C992829933D00D052D9 /* AppDelegate.swift in Sources */,
+				CF19DAB5283CF88A00003B61 /* YTWatchHistory.swift in Sources */,
+				CF955CCD28299A1F00D052D9 /* GlobalConstants.swift in Sources */,
+				CF19DAB7283D68DC00003B61 /* YTVideo.swift in Sources */,
+				CF19DABB283D874100003B61 /* LanguageCodes.swift in Sources */,
+				CF863BE6283E8D1E00D26BBF /* LangTableViewController.swift in Sources */,
+				CF863BE8283E8D4B00D26BBF /* LangTableViewCellController.swift in Sources */,
+				CF955C9B2829933D00D052D9 /* SceneDelegate.swift in Sources */,
+				CF19DAB9283D6AA800003B61 /* VideoPlaylist.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF955CA72829933F00D052D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF955CB02829933F00D052D9 /* LingoLogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF955CB12829933F00D052D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF955CBC2829933F00D052D9 /* LingoLogUITestsLaunchTests.swift in Sources */,
+				CF955CBA2829933F00D052D9 /* LingoLogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF955CAD2829933F00D052D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF955C942829933D00D052D9 /* LingoLog */;
+			targetProxy = CF955CAC2829933F00D052D9 /* PBXContainerItemProxy */;
+		};
+		CF955CB72829933F00D052D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF955C942829933D00D052D9 /* LingoLog */;
+			targetProxy = CF955CB62829933F00D052D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF955C9E2829933D00D052D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF955C9F2829933D00D052D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF955CA32829933F00D052D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF955CA42829933F00D052D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF955CBD2829933F00D052D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF955CBE2829933F00D052D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF955CC02829933F00D052D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D906B54A8985A8CE1C72FEB /* Pods-LingoLog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LingoLog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LingoLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF955CC12829933F00D052D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A5F68EDF370DDE94B5A0E00 /* Pods-LingoLog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LingoLog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LingoLog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF955CC32829933F00D052D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LingoLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LingoLog.app/LingoLog";
+			};
+			name = Debug;
+		};
+		CF955CC42829933F00D052D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LingoLogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LingoLog.app/LingoLog";
+			};
+			name = Release;
+		};
+		CF955CC62829933F00D052D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LingoLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LingoLog;
+			};
+			name = Debug;
+		};
+		CF955CC72829933F00D052D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LingoLogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LingoLog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF955C902829933D00D052D9 /* Build configuration list for PBXProject "LingoLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF955CBD2829933F00D052D9 /* Debug */,
+				CF955CBE2829933F00D052D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF955CBF2829933F00D052D9 /* Build configuration list for PBXNativeTarget "LingoLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF955CC02829933F00D052D9 /* Debug */,
+				CF955CC12829933F00D052D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF955CC22829933F00D052D9 /* Build configuration list for PBXNativeTarget "LingoLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF955CC32829933F00D052D9 /* Debug */,
+				CF955CC42829933F00D052D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF955CC52829933F00D052D9 /* Build configuration list for PBXNativeTarget "LingoLogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF955CC62829933F00D052D9 /* Debug */,
+				CF955CC72829933F00D052D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF955C8D2829933D00D052D9 /* Project object */;
+}
